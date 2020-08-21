@@ -1,0 +1,16 @@
+# development
+@server_url_dev = http://localhost:3000
+curl http://localhost:3000/ \
+    -X POST \
+    -H "Content-Type:application/json" \ 
+    -H "Accept: application/json" \
+    -d @testmail.json
+
+###
+# production
+@server_url_prod = https://voiceofmit-send.herokuapp.com
+curl https://voiceofmit-send.herokuapp.com/ \
+    -X POST \
+    -H "Content-Type:application/json" \ 
+    -H "Accept: application/json" \
+    -d @testmail.json
