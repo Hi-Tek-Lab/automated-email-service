@@ -1,4 +1,4 @@
-# Email Service
+# Email Service (Beta)
 
 ### Quick Setup 
 (make sure you have [Node]('https://nodejs.org/en/download/') installed)
